@@ -20,7 +20,7 @@ function changeCover($group_id, $change_interval = 30) {
 }
 
 function getCoverUploadServer($group_id) {
-    $upload_url = vkRequest("photos.getOwnerCoverPhotoUploadServer", ['group_id' => $group_id]);
+    $upload_url = vkRequest("photos.getOwnerCoverPhotoUploadServer", ['group_id' => $group_id, 'crop_x2'=>1590]);
     if ($upload_url['response']) verbose('Upload server received');
 
     return $upload_url['response']['upload_url'];
