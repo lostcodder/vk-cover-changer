@@ -21,4 +21,3 @@ Run `index.php`:
 ```bash
 php index.php
 ```
-Relax and enjoy:
