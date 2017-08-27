@@ -1,9 +1,10 @@
 # vk-cover-changer
 
 ## Usage
-Clone this repository
+Clone this repository:
 ```bash
-git clone git@github.com:druidvav/php-antigate-client.git
+git clone git@github.com:lostcodder/vk-cover-changer.git
+cd vk-cover-changer
 ```
 Create file `config.php` that looks like this:
 ```php
@@ -16,3 +17,8 @@ $change_interval = 30;
 $covers_dir = "cover";
 $log_level = "warning";
 ```
+Run `index.php`:
+```bash
+php index.php
+```
+Relax and enjoy:
