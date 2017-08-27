@@ -1,0 +1,12 @@
+{
+    "name": "lostcodder/vk-cover-changer",
+    "authors": [
+        {
+            "name": "Vitaly Yakubenko",
+            "email": "lostcodder@gmail.com"
+        }
+    ],
+    "require": {
+        "druidvav/antigate-client": "^0.1.0"
+    }
+}
