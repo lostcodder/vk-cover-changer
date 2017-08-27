@@ -3,7 +3,7 @@
 ## Usage
 Clone this repository:
 ```bash
-git clone git@github.com:lostcodder/vk-cover-changer.git
+git clone https://github.com/lostcodder/vk-cover-changer.git
 cd vk-cover-changer
 ```
 Create file `config.php` that looks like this:
